@@ -1,15 +1,8 @@
-// Button.stories.ts|tsx
-
 import React, { FC } from "react";
 
 import { ComponentStory, ComponentMeta } from "@storybook/react";
 
 import { SplitScreen, SplitScreenProps } from "./SplitScreen";
-
-// export default {
-//   title: "components/splitScreen",
-//   component: SplitScreen,
-// } as ComponentMeta<typeof SplitScreen>;
 
 export default {
   title: "components/splitScreen",
