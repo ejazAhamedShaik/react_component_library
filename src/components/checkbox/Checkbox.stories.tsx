@@ -10,18 +10,20 @@ export default {
   component: Checkbox,
 } as ComponentMeta<typeof Checkbox>;
 
-const Template: ComponentStory<typeof Checkbox> = (args: JSX.IntrinsicAttributes & CheckboxProps) => <Checkbox {...args} />
+const Template: ComponentStory<typeof Checkbox> = (
+  args: JSX.IntrinsicAttributes & CheckboxProps
+) => <Checkbox {...args} />;
 
-export const CheckedCheckbox = Template.bind({})
+export const CheckedCheckbox = Template.bind({});
 CheckedCheckbox.args = {
-    checked: true,
-    name: 'checked checkbox',
-    value: 'checked'
-}
+  checked: true,
+  name: "checked checkbox",
+  value: "checked",
+};
 
-export const UncheckedCheckbox = Template.bind({})
+export const UncheckedCheckbox = Template.bind({});
 UncheckedCheckbox.args = {
-    checked: false,
-    name: 'unchecked checkbox',
-    value: 'checked'
-}
+  checked: false,
+  name: "unchecked checkbox",
+  value: "checked",
+};
