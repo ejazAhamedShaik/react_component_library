@@ -18,6 +18,6 @@ export const RegularListStory = () => (
 );
 
 export default {
-  title: 'RegularList',
+  title: 'components/RegularList',
   component: RegularList,
 };
